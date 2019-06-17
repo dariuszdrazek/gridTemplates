@@ -1,0 +1,64 @@
+.btn {
+     border: none;
+     background-color: $color-dark;
+     color: darken($color-light, 20%);
+     text-align: center;
+     padding: 0.5rem 0.75rem;
+     font-size: 13px;
+     font-weight: 400;
+}
+
+.top-box {
+     padding: 1.5rem;
+     background-color: $color-primary;
+     box-shadow: $shadow;
+     display: grid;
+     justify-items: center;
+     align-items: center;
+     p {
+          color: $color-dark;
+          font-size: 2.2rem;
+     }
+}
+
+.showcase {
+     background: url('../img/web.jpg');
+     min-height: 25rem;
+     padding: 3rem;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     box-shadow: $shadow;
+     p {
+          color: $color-light;
+     }
+
+     .btn {
+          margin-top: 1rem;
+     }
+}
+
+.box {
+     background-color: $color-primary;
+     box-shadow: $shadow;
+     padding: 1.5rem;
+     text-align: center;
+     h3 {
+          margin: 1rem auto;
+     }
+}
+
+footer {
+     background-color: $color-dark;
+     text-align: center;
+
+     display: grid;
+     grid-template-rows: minmax(100px, 1fr);
+     align-items: center;
+     p {
+          color: $color-light;
+     }
+}

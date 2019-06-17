@@ -1,0 +1,44 @@
+@media (max-width: 700px) {
+     .top-container {
+          grid-template-areas:
+               'showcase showcase'
+               'top-box-a top-box-b';
+     }
+
+     .main-nav {
+          ul {
+               grid-template-columns: 100%;
+               grid-gap: 0.8rem;
+          }
+     }
+}
+
+@media (max-width: 500px) {
+     .top-container {
+          grid-template-areas:
+               'showcase'
+               'top-box-a'
+               'top-box-b';
+     }
+
+     .info {
+          grid-template-columns: 1fr;
+          padding: 1rem;
+
+          .btn {
+               width: 100%;
+               margin: 1rem 0;
+          }
+          img {
+               max-width: 100%;
+          }
+     }
+
+     .portfolio {
+          grid-template-columns: 1fr;
+
+          img {
+               width: 100%;
+          }
+     }
+}

@@ -1,0 +1,46 @@
+i {
+     color: $color-dark;
+     font-size: 40px;
+}
+
+a {
+     color: $color-dark;
+     text-transform: uppercase;
+     display: block;
+     padding: 0.75rem;
+     text-align: center;
+     background-color: $color-primary;
+     box-shadow: $shadow;
+     font-size: 1.1rem;
+
+     &:hover {
+          background-color: invert($color-primary);
+          color: invert($color-dark);
+     }
+}
+
+h1 {
+     color: $color-light;
+     font-size: 60px;
+     font-weight: 700;
+}
+
+h3 {
+     font-weight: 700;
+}
+
+h2 {
+     margin: 1.5rem 0;
+     font-size: 25px;
+     font-weight: 700;
+     color: $color-dark;
+}
+
+p {
+     color: lighten($color-dark, 20%);
+}
+
+img {
+     max-width: 100%;
+     box-shadow: $shadow;
+}

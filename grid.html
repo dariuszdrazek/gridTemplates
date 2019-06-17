@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <title>Document</title>
+          <style>
+               .item {
+                    background-color: #323232;
+                    color: white;
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: bold;
+               }
+
+               .container {
+                    display: grid;
+                    grid-gap: 1rem;
+                    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+               }
+          </style>
+     </head>
+     <body>
+          <div class="container">
+               <div class="item item1">lorem ipsu1</div>
+               <div class="item item2">lorem ipsu2</div>
+               <div class="item item3">lorem ipsu3</div>
+               <div class="item item4">lorem ipsu4</div>
+               <!-- <div class="item item5">lorem ipsu5</div>
+               <div class="item item6">lorem ipsu6</div>
+               <div class="item item7">lorem ipsu7</div>
+               <div class="item item8">lorem ipsu8</div>
+               <div class="item item9">lorem ipsu9</div>
+               <div class="item item10">lorem ipsu10</div>
+               <div class="item item11">lorem ipsu11</div>
+               <div class="item item12">lorem ipsu12</div>
+               <div class="item item13">lorem ipsu13</div>
+               <div class="item item14">lorem ipsu14</div>
+               <div class="item item15">lorem ipsu15</div>
+               <div class="item item16">lorem ipsu16</div>
+               <div class="item item17">lorem ipsu17</div>
+               <div class="item item18">lorem ipsu18</div>
+               <div class="item item19">lorem ipsu19</div>
+               <div class="item item20">lorem ipsu20</div> -->
+
+               <!-- .container {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                  
+                    [class*="col-"] {
+                      box-sizing: border-box;
+                      padding-left: 15px;
+                      padding-right: 15px;
+                      margin-bottom: 30px;
+                    }
+                  
+                    .row {
+                      margin-left: -15px;
+                      margin-right: -15px;
+                    }
+                  
+                    @media (min-width: 780px) {
+                      .row {
+                        display: flex;
+                      }
+                  
+                      @for $i from 1 through 12 {
+                        .col-#{$i}-12 {
+                          width: (100 / 12 * $i) * 1%;
+                        }
+                      }
+                    }
+                  } -->
+          </div>
+     </body>
+</html>

@@ -1,0 +1,60 @@
+.wrapper {
+     display: grid;
+     grid-gap: 1.25rem;
+}
+
+ul {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 3.125rem 0.625rem;
+}
+
+.top-container {
+     display: grid;
+     grid-gap: 1.25rem;
+     grid-template-areas:
+          'showcase showcase top-box-a'
+          'showcase showcase top-box-b';
+}
+.top-box-a {
+     grid-area: top-box-a;
+}
+
+.top-box-b {
+     grid-area: top-box-b;
+}
+
+.showcase {
+     grid-area: showcase;
+}
+
+.boxes {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 1.25rem;
+}
+
+.box {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+}
+
+.info {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 1.75rem;
+     padding: 3rem;
+     background-color: $color-primary;
+}
+
+.portfolio {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 1.25rem;
+
+     img {
+          width: 100%;
+     }
+}
